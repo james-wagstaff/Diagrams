@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2021-01-28T18:15:25.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53" etag="Je-UW_d8eu6YIHLCsEOR" version="14.2.7" type="github">
+  <diagram id="bXiSy-yzUZDngqcwPexn" name="Page-1">
+    <mxGraphModel dx="754" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9CvgzSKVDReJcCDshX9--21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DBDBDB;" parent="1" vertex="1">
+          <mxGeometry x="70" y="250" width="1330" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--1" value="toyota-data-drop-page-service&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;a href=&quot;https://bitbucket.audatex.com/projects/SRMIC/repos/toyota-data-drop-page-service&quot; style=&quot;font-size: 21px;&quot;&gt;&lt;br style=&quot;font-size: 21px;&quot;&gt;https://bitbucket.audatex.com/projects/SRMIC/repos/toyota-data-drop-page-service&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="400" y="120" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9CvgzSKVDReJcCDshX9--4" target="9CvgzSKVDReJcCDshX9--5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--4" value="&lt;h1&gt;crawler-mq-utils&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;shadow=1;strokeColor=#000000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="130" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9CvgzSKVDReJcCDshX9--5" target="9CvgzSKVDReJcCDshX9--7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--5" value="&lt;h1&gt;MetaLinkListener&lt;/h1&gt;&lt;div&gt;Listen to messages on queue and send message to handler&lt;/div&gt;" style="text;html=1;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=#000000;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="90" y="300" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9CvgzSKVDReJcCDshX9--7" target="9CvgzSKVDReJcCDshX9--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--7" value="&lt;h1&gt;DataDropPageHandler&lt;/h1&gt;&lt;div&gt;routes message to correct processor&lt;/div&gt;" style="text;html=1;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=#000000;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="380" y="300" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9CvgzSKVDReJcCDshX9--9" target="9CvgzSKVDReJcCDshX9--12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--9" value="&lt;h1 style=&quot;text-align: center&quot;&gt;&lt;span&gt;AbstractProcessor&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Classes extending from this class:&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;ImageProcessor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;PageProcessor&lt;/span&gt;&lt;/div&gt;PdfProcessor&lt;br&gt;TocProcessor&lt;br&gt;ZipProcessor" style="text;html=1;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=#000000;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="740" y="260" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9CvgzSKVDReJcCDshX9--12" target="9CvgzSKVDReJcCDshX9--18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--12" value="&lt;h1&gt;&lt;span&gt;DatabaseService&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;Extract information from processed message and sent to correct repository&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center&quot;&gt;Repository references for:&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;ImageRepository&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;PageRepository&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;PdfRepository&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;TocRepository&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;ZipRepository&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=#000000;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="260" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9CvgzSKVDReJcCDshX9--18" value="Neo4j" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="310" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
